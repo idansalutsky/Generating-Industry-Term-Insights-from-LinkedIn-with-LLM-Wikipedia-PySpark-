@@ -54,7 +54,7 @@ Our findings are geared toward empowering power users with a deeper understandin
 Running the project requires from one the following:
 
 1. Download the project notebook and upload it to an IDE where the LinkedIn data is available (e.g the course's Databricks IDE).
-2. Creating a Gemini API key ([Instructions](readme.com))
+2. Creating a Gemini API key ([Instructions](https://aistudio.google.com/app/apikey))
 
 
 ```bash
