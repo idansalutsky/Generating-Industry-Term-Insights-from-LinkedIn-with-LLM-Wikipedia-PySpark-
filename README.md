@@ -53,11 +53,11 @@ Our findings are geared toward empowering power users with a deeper understandin
 
 # Running the Project
 
-Running the project requires from one the following:
+Running the project requires from the following:
 
 1. Download the project notebook and upload it to an IDE where the LinkedIn data is available (e.g the course's Databricks IDE).
 2. Create a Google AI Studio API key ([Instructions](https://aistudio.google.com/app/apikey)).
-3. In the project notebook, in the first code block, locate these lines
+3. In the project notebook, in the first code block, locate these lines:
 
 ```bash
 # Data enrichment libraries imports - Wikipedia module and Gemini LLM
@@ -77,7 +77,7 @@ import google.generativeai as genai
 genai.configure(api_key="a1b2c3d4")
 model = genai.GenerativeModel('gemini-pro')
 ```
-3. Choose an industry from the following table (Industry column)
+4. Choose an industry from the following table (Industry column)
 
 ```bash
                                                   Industry                 Meta-Industry
@@ -231,7 +231,7 @@ model = genai.GenerativeModel('gemini-pro')
 147                                     Mobile Gaming Apps       Media and Entertainment
 ```
 
-4. Locate the following code block in the notebook and replace the `industry_name` variable with the industry that you have selected in stage 3, in string format. For example, if you chose the `Insurance` industry, modify the block as following:
+5. Locate the following code block in the notebook and replace the `industry_name` variable with the industry that you have selected in stage 4, in string format. For example, if you chose the `Insurance` industry, modify the block as following:
 
 ```bash
 ################################## USER INPUT ###################################
@@ -240,7 +240,7 @@ industry_name = "Insurance"
 ############################### END OF USER INPUT ###############################
 ```
 
-5. Run the full notebook to review results
+6. Run the full notebook to review results
 
 **Note**: It is possible that when you run the notebook, a Gemini API runtime error will be returned to you with a message saying that it took too long to receive a response from the API and therefore the process terminated. This happens when many requests are made from the API and in a frequent manner. In this case the problematic block must be run again and again until a response is received from the API and then the rest of the blocks should be run as usual.
 
