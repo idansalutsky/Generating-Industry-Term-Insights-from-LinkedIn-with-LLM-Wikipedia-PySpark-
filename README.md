@@ -5,8 +5,6 @@
     <a>Tomer Eichler</a>&nbsp;,&nbsp;
     <a>Idan Salutsky</a>&nbsp;,&nbsp;
     <a>Nimrod Solomon</a>&nbsp;
-    <br/> 
-    Technion - Israel Institute of Technology<br/>  
 </p>
 
 
