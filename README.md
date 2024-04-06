@@ -33,6 +33,9 @@ We also use natural language processing, machine learning and information retrie
 
 **Clustering:** K-Means clustering algorithm is applied to group the terms. Cosine similarities serve as distances between terms. Gemini provides cluster names.
 
+![Alt text](images/1.png)
+
+
 
 # Results
 
@@ -48,6 +51,7 @@ Our findings are geared toward empowering power users with a deeper understandin
 
 **Decomposition of Meta Industry:** Beyond the individual industry of interest, we've zoomed out to explore the meta industry. Our breakdown reveals the sub-industries, providing a holistic view of the ecosystem.
 
+![Alt text](images/2.png)
 
 # Running the Project
 
